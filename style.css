@@ -305,7 +305,7 @@ section{
     padding-left: 0;
 }
 .card-title{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 2px;
@@ -687,4 +687,50 @@ section{
 
 #radio4:checked~.navigation-auto .auto-btn4 {
     background: #283618;
+}
+
+
+
+
+
+.aboutme{
+    width: 100%;
+    padding: 80px;
+}
+.aboutme img{
+    width: 420px;
+    height: auto;
+}
+.aboutext{
+    width: 550px
+}
+.aboutext h1{
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.aboutext h5{
+    color: #283618;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.aboutext p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+}
+.main{
+    width: 1050px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
